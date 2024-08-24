@@ -20,6 +20,6 @@ features:
   - title: 支持插件
     details: 拥有独立的api,编写插件简单，高效快捷
   - title: 支持拓展
-    details: 拓展能力强，可连接主流qq框架
+    details: 拓展能力强，可连接主流框架
 ---
 
