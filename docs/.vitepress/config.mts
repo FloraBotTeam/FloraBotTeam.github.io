@@ -9,7 +9,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '使用', link: '/install' },
-      { text: '开发', link: '/developmentplugin' }
+      { text: '开发', link: '/developmentplugin' },
+      { text: '关于', link: '/about' },
+      { text: 'CQ-HTTP', link: 'https://docs.go-cqhttp.org/`'}
     ],
 
     sidebar: [
