@@ -2,9 +2,12 @@
 
 ## 安装程序
 
-**从[github仓库](https://github.com/FloraBotTeam/FloraBot)下载程序或者下方链接**
+**从[github仓库](https://github.com/FloraBotTeam/FloraBot)下载程序或者链接下载**
+
 **`https://github.com/FloraBotTeam/FloraBot/archive/refs/heads/main.zip`**
+
 **下载后解压在空文件夹**
+
 **安装必要的库:**  
 
 ```Shell
