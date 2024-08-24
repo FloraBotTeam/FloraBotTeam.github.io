@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "FloraBot"
-  text: "一个新的，支持插件的QQBot"
+  text: "一个新的，支持插件的Bot"
   tagline: 开源 轻量 便捷
   actions:
     - theme: brand
