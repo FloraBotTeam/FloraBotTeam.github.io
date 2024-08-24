@@ -26,6 +26,12 @@ export default defineConfig({
         items: [
           { text: '插件开发', link: '/developmentplugin' }
         ]
+      },
+      {
+        text: '关于',
+        item: [
+          { text: '关于项目', link: 'about' }
+        ]
       }
     ],
 
