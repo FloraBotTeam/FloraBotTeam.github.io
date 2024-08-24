@@ -1,21 +1,17 @@
 # 开始安装
 
-## 安装依赖
-
-**安装必要的库:**  
-
-* **`flask`**
-```Shell
-pip install flask
-```
-* **`requests`**
-```Shell
-pip install requests
-```
-
 ## 安装程序
 
-**从[github仓库](https://github.com/AEBC08/FloraBot)下载主体程序`FloraBot.py`,并运行**
+**从[github仓库](https://github.com/FloraBotTeam/FloraBot)下载程序或者下方链接**
+**`https://github.com/FloraBotTeam/FloraBot/archive/refs/heads/main.zip`**
+**下载后解压在空文件夹**
+**安装必要的库:**  
+
+```Shell
+pip install -r requirements.txt
+```
+
+**运行`FloraBot.py`**
 
 **首次启动会启动失败, 此时会在文件 `FloraBot.py` 的同级目录下生成一个 `Config.json` 文件, 编辑它**
 
