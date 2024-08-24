@@ -11,7 +11,7 @@ export default defineConfig({
       { text: '使用', link: '/install' },
       { text: '开发', link: '/developmentplugin' },
       { text: '关于', link: '/about' },
-      { text: 'CQ-HTTP', link: 'https://docs.go-cqhttp.org/`'}
+      { text: 'CQ-HTTP', link: 'https://docs.go-cqhttp.org/'}
     ],
 
     sidebar: [
