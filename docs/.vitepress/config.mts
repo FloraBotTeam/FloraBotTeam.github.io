@@ -13,7 +13,7 @@ export default defineConfig({
     ],
 
     sidebar: [
-       {
+      {
         text: '使用',
         items: [
           { text: '安装环境', link: '/installenvironment' },
