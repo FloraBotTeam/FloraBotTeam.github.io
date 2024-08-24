@@ -29,7 +29,7 @@ export default defineConfig({
       },
       {
         text: '关于',
-        item: [
+        items: [
           { text: '关于项目', link: '/about' }
         ]
       }
