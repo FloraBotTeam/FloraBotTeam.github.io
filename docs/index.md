@@ -12,7 +12,7 @@ hero:
       link: /installenvironment.md
     - theme: alt
       text: github
-      link: https://github.com/AEBC08/FloraBot
+      link: https://github.com/FloraBotTeam/FloraBot
 
 features:
   - title: 开源便捷
