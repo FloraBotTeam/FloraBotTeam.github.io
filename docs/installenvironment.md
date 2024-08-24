@@ -1,5 +1,5 @@
 # 开始使用
-FloraBot一个新的, 使用 Python 编写的支持插件的 QQBot
+FloraBot一个新的, 使用 Python 编写的支持插件的 Bot
 
 ## 安装环境
 
