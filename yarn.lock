@@ -746,6 +746,11 @@ preact@^10.0.0:
   resolved "https://registry.yarnpkg.com/preact/-/preact-10.23.2.tgz#52deec92796ae0f0cc6b034d9c66e0fbc1b837dc"
   integrity sha512-kKYfePf9rzKnxOAKDpsWhg/ysrHPqT+yQ7UW4JjdnqjFIeNUnNcEJvhuA8fDenxAGWzUqtd51DfVg7xp/8T9NA==
 
+remixicon@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.npmmirror.com/remixicon/-/remixicon-4.3.0.tgz#61c3fd6ca11149bd05850152f9c08e5f5de7b0c9"
+  integrity sha512-jRYQ37dTFSkJtvcxwTUAkIiXkYRvA9EDvVuXPNrmt2xf/VS//CRgFtsX2TAFBoQOhh9SDh7l6La4Xu12snEyxg==
+
 rfdc@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/rfdc/-/rfdc-1.4.1.tgz#778f76c4fb731d93414e8f925fbecf64cce7f6ca"
@@ -783,6 +788,11 @@ shiki@1.14.1, shiki@^1.13.0:
   dependencies:
     "@shikijs/core" "1.14.1"
     "@types/hast" "^3.0.4"
+
+simple-icons-font@^13.6.0:
+  version "13.6.0"
+  resolved "https://registry.npmmirror.com/simple-icons-font/-/simple-icons-font-13.6.0.tgz#ef5ec1aeb9bdc89a43d51a3243bd0658ae51ad27"
+  integrity sha512-Fcc8u3u0ffnZ7LyGYrydcrCM3Ysj1OqS6SzAzN1FSvuqX8PHMYA/P6h+eGFIlhMh7+V6Jg1mRIOGpLcfRnKJqA==
 
 source-map-js@^1.2.0:
   version "1.2.0"
