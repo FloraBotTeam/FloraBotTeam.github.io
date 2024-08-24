@@ -30,7 +30,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/AEBC08/FloraBot' }
+      { icon: 'github', link: 'https://github.com/FloraBotTeam/FloraBot' }
     ]
   }
 })
