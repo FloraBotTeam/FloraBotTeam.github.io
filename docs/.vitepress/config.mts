@@ -10,7 +10,7 @@ export default defineConfig({
     nav: [
       { text: '使用',
         items: [
-          { text: '安装环境', link: '/install' },
+          { text: '开始', link: '/installenvironment' },
           {text:'第三方插件列表',link:'/plugins-list'}
         ] 
       },
