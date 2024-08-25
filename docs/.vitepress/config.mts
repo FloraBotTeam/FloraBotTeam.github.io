@@ -8,10 +8,20 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '使用', link: '/install' },
-      { text: '开发', link: '/developmentplugin' },
+      { text: '使用',
+        items: [
+          { text: '安装环境', link: '/install' },
+          {text:'第三方插件列表',link:'/plugins-list'}
+        ] 
+      },
+      { text: '插件开发', link: '/developmentplugin'},
       { text: '关于', link: '/about' },
-      { text: 'CQ-HTTP', link: 'https://docs.go-cqhttp.org/'}
+      { text: '参考文档' ,
+        items: [
+          { text: 'CQHTTP', link: 'https://docs.go-cqhttp.org/' },
+          { text: 'OneBot11', link: 'https://11.onebot.dev/' }
+        ]
+      }
     ],
 
     sidebar: [
