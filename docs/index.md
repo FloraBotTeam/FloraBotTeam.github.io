@@ -23,6 +23,6 @@ features:
     icon: <i class="ri-puzzle-2-fill"></i>
   - title: 支持拓展
     details: 拓展能力强，可连接主流框架
-    icon: <i class="si si-chatbot si--color"></i>
+    icon: <i class="si si-chatbot"></i>
 ---
 
