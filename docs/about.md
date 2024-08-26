@@ -1,12 +1,8 @@
----
-title: 关于项目
-lang: zh-CN
----
 # 关于
 
 ## 关于此项目
 
-**FloraBot是一个新的，支持插件的Bot**
+**FloraBot是一个新的，使用Python开发支持插件的Bot**
 
 ### 作者
 * **[`AEBC08`](https://github.com/AEBC08)**
