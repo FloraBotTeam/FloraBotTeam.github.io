@@ -1,5 +1,5 @@
 # 开始安装
-
+**FloraBot一个新的, 使用 Python 编写的支持插件的 Bot**
 ## 安装程序
 
 **从[github仓库](https://github.com/FloraBotTeam/FloraBot)下载程序或者链接下载**
