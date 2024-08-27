@@ -1,6 +1,8 @@
 # 开始安装
 FloraBot一个新的, 使用 Python 编写的支持插件的 Bot
-
+::: danger 注意
+此文档当前仅支持FloraBotV1.01版本
+:::
 ## 安装环境
 
 本程序需运行在python3.11+版本
