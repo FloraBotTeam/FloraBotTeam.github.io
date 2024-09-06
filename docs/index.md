@@ -1,15 +1,14 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "FloraBot"
-  text: "一个新的，支持插件的Bot"
+  text: "一个新的，支持插件的ChatBot"
   tagline: 开源 轻量 便捷
   actions:
     - theme: brand
       text: 立刻使用
-      link: /installenvironment.md
+      link: ./guide/install.md
     - theme: alt
       text: github
       link: https://github.com/FloraBotTeam/FloraBot
@@ -25,4 +24,3 @@ features:
     details: 拓展能力强，可连接主流框架
     icon: <i class="si si-chatbot si--color"></i>
 ---
-
