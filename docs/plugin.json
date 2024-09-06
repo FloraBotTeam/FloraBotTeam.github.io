@@ -12,5 +12,12 @@
         "PluginDescription":"获取今日运势和随机图片",
         "repo_from":"Github",
         "repo":"https://github.com/Wuchang325/florabot-plugin-Fortune"
+    },
+    {
+        "PluginName":"Lolicon",
+        "PluginAuthor":"luyanci",
+        "PluginDescription":"Lolicon 涩图插件",
+        "repo_from":"Github",
+        "repo":"https://github.com/VCBot-Florabot/lolicon-plugin"
     }
 ]
