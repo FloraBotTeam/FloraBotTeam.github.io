@@ -5,7 +5,7 @@
 :::
 
 <script setup>
-import data from './plugin.json'
+import data from '/plugin.json'
 </script>
 
 <table align="center">
