@@ -10,7 +10,7 @@ hero:
        text: Get Started
        link: ./guide/install.md
      - theme: alt
-       text: github
+       text: Github
        link: https://github.com/FloraBotTeam/FloraBot
 
 features:
