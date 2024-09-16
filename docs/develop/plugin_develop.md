@@ -75,7 +75,8 @@ def event(data: dict):  # 事件函数,FloraBot每收到一个事件都会调用
 **上面的注释已经很详细了**  
 **注意事项:**  
 * **这些函数以及 `flora_api` 变量都不是必要的, 少了也不会报错**  
-* **`init` 函数里获取 API 内容的话, `PluginsDict` 和 `PluginsInfoDict` 还不是正确的, 推荐放到 `api_update_event` 函数中处理**  
+* **`init` 函数里获取 API 内容的话, `PluginsDict` 和 `PluginsInfoDict` 还不是正确的, 推荐放到 `api_update_event` 函数中处理**
+:::
 ## 插件API
 **这些在插件中都可以使用 `flora_api.get()` 获取到**  
 * **`FloraPath`: FloraBot.py 文件所在的绝对路径, 不是这个文件的路径, 而是所在目录**  
@@ -96,7 +97,6 @@ def broadcast_event(data: dict, send_type: str, ws_client=None, ws_server=None, 
     # ws_client: WebSocket连接实例,ws_server: WebSocket服务端实例(若发送类型为WebSocket这两个参数必填)
     # send_host: HTTP协议发送地址,send_port: HTTP协议发送端口(若填这两个参数则使用自定义地址发送)
 ```
-:::
 **调用 `BroadcastEvent` 示例:**  
 **如果你希望其他插件能够将消息从你的插件中开启的 HTTP 发送消息, 你可以这么写:**  
 ```Python
