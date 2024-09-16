@@ -28,10 +28,10 @@
 * **`PluginDescription`: 插件描述**  
 * **`EnablePlugin`: 是否启用插件, 这是一个标志, 用于启用和禁用插件的, 默认值为 `true` 即可**  
 ## 前言
-**目前 WebSocket 协调连接可能调用一些 API 尚存一些问题, 一些框架的 API 调用起来可能会比较复杂, 为了适配 WebSocket 我已经修了很多 Bug 了, 目前做不到把它变得更加完美**  
-**但是我已经尽力将接收和发送消息那一块把 HTTP 和 WebSocket 协议给统一了, 一个函数即可解决两种协议的消息发送**  
-**py文件(必要)示范:**  
-**前言, 这里用不到的函数可以不定义, 可以直接删去, 包括API也可以删去不定义, 不会报错的**
+::: warning
+**目前 WebSocket 协调连接可能调用一些 API 尚存一些问题, 一些框架的 API 调用起来可能会比较复杂, 目前做不到把它变得更加完美, 当前的WebSocket链接仍然处于不稳定状态**  
+:::
+::: tip 插件主文件编写示范
 ```Python
 # 前言,这里用不到的函数可以不定义,可以直接删去,包括API也可以删去不定义,不会报错的
 
@@ -96,6 +96,7 @@ def broadcast_event(data: dict, send_type: str, ws_client=None, ws_server=None, 
     # ws_client: WebSocket连接实例,ws_server: WebSocket服务端实例(若发送类型为WebSocket这两个参数必填)
     # send_host: HTTP协议发送地址,send_port: HTTP协议发送端口(若填这两个参数则使用自定义地址发送)
 ```
+:::
 **调用 `BroadcastEvent` 示例:**  
 **如果你希望其他插件能够将消息从你的插件中开启的 HTTP 发送消息, 你可以这么写:**  
 ```Python
