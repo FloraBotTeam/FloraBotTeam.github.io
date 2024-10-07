@@ -789,10 +789,10 @@ shiki@1.14.1, shiki@^1.13.0:
     "@shikijs/core" "1.14.1"
     "@types/hast" "^3.0.4"
 
-simple-icons-font@^13.12.0:
-  version "13.12.0"
-  resolved "https://registry.yarnpkg.com/simple-icons-font/-/simple-icons-font-13.12.0.tgz#d7f07da74cb343deb4ea38394a8b7c10e9239e2d"
-  integrity sha512-mnNQOJqDHnQQOQlk+A/c7VUYu8xGbStbf4Ak+fEVR9tjOXjrKJLO04YG5Gpb0yYvSPgZbKnA44bp0vYDZlxYng==
+simple-icons-font@^13.13.0:
+  version "13.13.0"
+  resolved "https://registry.yarnpkg.com/simple-icons-font/-/simple-icons-font-13.13.0.tgz#ff46b3965327a1834255a6c3e60e59b4998cd99d"
+  integrity sha512-F896JD8a1Bn1zrF/2iyzSzQpWv958R7voUkSc1WqRkzqsAuCnl6MiMfc61A96TXOQdl5/XQbOpZSdNtDLaY5TA==
 
 source-map-js@^1.2.0:
   version "1.2.0"
