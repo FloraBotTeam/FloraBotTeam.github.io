@@ -9,7 +9,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "remixicon": "^4.3.0",
+    "remixicon": "^4.4.0",
     "simple-icons-font": "^13.13.0"
   }
 }
