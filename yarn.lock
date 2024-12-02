@@ -965,10 +965,10 @@ shiki@1.22.0, shiki@^1.22.0:
     "@shikijs/vscode-textmate" "^9.3.0"
     "@types/hast" "^3.0.4"
 
-simple-icons-font@^13.13.0:
-  version "13.13.0"
-  resolved "https://registry.yarnpkg.com/simple-icons-font/-/simple-icons-font-13.13.0.tgz#ff46b3965327a1834255a6c3e60e59b4998cd99d"
-  integrity sha512-F896JD8a1Bn1zrF/2iyzSzQpWv958R7voUkSc1WqRkzqsAuCnl6MiMfc61A96TXOQdl5/XQbOpZSdNtDLaY5TA==
+simple-icons-font@^13.19.0:
+  version "13.19.0"
+  resolved "https://registry.yarnpkg.com/simple-icons-font/-/simple-icons-font-13.19.0.tgz#200649b0ef0f157acea8523accab21a974df0f3b"
+  integrity sha512-XUNJyVV1OjGL5mNHwEDIlvbj7+t3MsLXIqbNXDTuYzh/u5kSPSi2j81ZVVRLsR8yNddTlHO6BQ/0tKNxskwiZA==
 
 source-map-js@^1.2.0:
   version "1.2.0"
