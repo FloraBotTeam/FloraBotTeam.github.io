@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 立刻使用
-      link: ./guide/install.md
+      link: ./guide/introduction
     - theme: alt
       text: Github
       link: https://github.com/FloraBotTeam/FloraBot
