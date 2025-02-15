@@ -5,6 +5,7 @@ import locales from './locales'
 export default defineConfig({
   title: "FloraBot Docs",
   locales: locales.locales,
+  head: [['link',{rel:'icon',href:'/logo.png'}]],
   themeConfig: {
     
     socialLinks: [
