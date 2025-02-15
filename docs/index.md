@@ -6,7 +6,7 @@ hero:
   text: "一个新的，支持插件的ChatBot"
   tagline: 开源 轻量 便捷
   image:
-    src: ./images/logo.png
+    src: /logo.png
     alt: FloraBot logo
   actions:
     - theme: brand
