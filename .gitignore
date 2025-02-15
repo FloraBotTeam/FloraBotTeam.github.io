@@ -1,5 +1,0 @@
-dist
-.temp
-.cache
-docs/.vitepress/cache/*
-node_modules
