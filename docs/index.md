@@ -5,10 +5,13 @@ hero:
   name: "FloraBot"
   text: "一个新的，支持插件的ChatBot"
   tagline: 开源 轻量 便捷
+  image:
+    src: ./images/logo.png
+    alt: FloraBot logo
   actions:
     - theme: brand
       text: 立刻使用
-      link: ./guide/install.md
+      link: ./guide/introduction
     - theme: alt
       text: Github
       link: https://github.com/FloraBotTeam/FloraBot
@@ -24,3 +27,5 @@ features:
     details: 拓展能力强，可连接主流框架
     icon: <i class="si si-chatbot si--color"></i>
 ---
+<DataPanel />
+<Confetti />
