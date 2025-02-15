@@ -1,4 +1,7 @@
 {
+  "name": "FloraBot-Docs",
+  "version": "3.0.0",
+  "description": "FloraBot documentation website",
   "devDependencies": {
     "vitepress": "^1.5.0",
     "vue": "^3.4.38"
@@ -9,6 +12,8 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "busuanzi.pure.js": "^1.0.3",
+    "canvas-confetti": "^1.9.3",
     "remixicon": "^4.3.0",
     "simple-icons-font": "^13.13.0"
   }
