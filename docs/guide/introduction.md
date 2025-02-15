@@ -4,7 +4,7 @@
 此文档适用于 FloraBot V1.13 及以上版本
 :::
 
-<Linkcard url="/guide/install" title="安装FloraBot" description="点击开始你的FloraBot之旅" logo="../images/logo.png"/>
+<Linkcard url="/guide/install" title="安装FloraBot" description="点击开始你的FloraBot之旅" logo="/logo.png"/>
 
 ## FloraBot 是什么
 
