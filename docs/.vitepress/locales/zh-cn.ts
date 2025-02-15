@@ -4,10 +4,10 @@ export default defineConfig({
   lang: 'zh-CN',
   description: "一个新的, 使用 Python 编写的支持插件的Bot",
   cleanUrls:true, //开启纯净链接 //
-  head: [['link', { rel: 'icon', href: '../images/logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/logo.png' }]],
   themeConfig: {
     nav: nav(),
-    logo: '../images/logo.png',
+    logo: '/logo.png',
     sidebar: {
         '/guide/': { base: '/', items: sidebarGuide() },
         '/develop/': { base: '/', items: sidebarDevelop() }
