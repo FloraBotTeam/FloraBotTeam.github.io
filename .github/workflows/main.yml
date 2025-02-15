@@ -31,6 +31,11 @@ jobs:
         run: yarn install
       - name: Build
         run: yarn run docs:build
+      - name: Copy images before deploy
+        working-directory: docs
+        run: |
+          mkdir -p .vitepress/dist/images
+          cp -r ./images/ ./.vitepress/dist/
       - name: Deploy
         uses: actions/upload-pages-artifact@v3
         with:
