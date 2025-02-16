@@ -1,5 +1,5 @@
 ---
-
+editLink: false
 gitChangelog: false
 ---
 <script setup>
