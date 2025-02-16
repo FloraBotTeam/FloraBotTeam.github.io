@@ -1,6 +1,6 @@
 ---
 layout: doc
-gitChangelog: false
+gitChangelog: true
 ---
 <script setup>
 import {VPTeamPage,VPTeamPageTitle,VPTeamMembers} from 'vitepress/theme'
