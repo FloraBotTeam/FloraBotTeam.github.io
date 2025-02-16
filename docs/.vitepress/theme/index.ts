@@ -3,7 +3,7 @@ import "simple-icons-font/font/simple-icons.min.css"
 import "remixicon/fonts/remixicon.css"
 import "./style/index.css"; 
 import './style/vp-code-group.css';
-import { inBrowser } from "vitepress";
+import { inBrowser,useRoute } from "vitepress";
 import busuanzi from "busuanzi.pure.js";
 import { NolebaseInlineLinkPreviewPlugin } from "@nolebase/vitepress-plugin-inline-link-preview/client";
 import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css';
@@ -18,7 +18,9 @@ import Confetti from "./components/Confetti.vue";
 import Linkcard from "./components/Linkcard.vue"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
 import { h } from "vue";
-
+import 'viewerjs/dist/viewer.min.css';
+import imageViewer from 'vitepress-plugin-image-viewer';
+import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue';
 
 
 export default {
@@ -35,6 +37,7 @@ export default {
       app.component("Confetti", Confetti); //注册全局组件
       app.component('Linkcard' , Linkcard); //注册全局组件
       app.component('ArticleMetadata' , ArticleMetadata); //注册全局组件
+      app.component('vImageViewer',vImageViewer)
       app.use(NolebaseInlineLinkPreviewPlugin);
       app.use(NolebaseGitChangelogPlugin);
       if (inBrowser) {
@@ -42,5 +45,9 @@ export default {
           busuanzi.fetch();
         };
       }
+    },
+    setup() {
+      const route = useRoute();
+      imageViewer(route);
     }
 }
