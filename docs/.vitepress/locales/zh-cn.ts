@@ -14,7 +14,7 @@ export default defineConfig({
     },
 
     editLink: {
-        pattern: 'https://github.com/FloraBotTeam/FloraBotDocs',
+        pattern: 'https://github.com/FloraBotTeam/FloraBotTeam.github.io/edit/main/docs/:path',
         text: '在 GitHub 上编辑此页面'
     },
 

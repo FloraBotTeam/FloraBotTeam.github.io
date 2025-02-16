@@ -1,4 +1,10 @@
 import { defineConfig } from 'vitepress'
+import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
+import { 
+  GitChangelog,
+  GitChangelogMarkdownSection
+ } from '@nolebase/vitepress-plugin-git-changelog/vite'
+
 import locales from './locales'
 
 // https://vitepress.dev/reference/site-config
@@ -13,6 +19,37 @@ export default defineConfig({
     ],
     search: {
       provider: 'local'
+    }
+  },
+  markdown:{
+    config(md) {
+      md.use(InlineLinkPreviewElementTransform)
+    }
+  },
+  vite: {
+    plugins:[
+      GitChangelog({
+        repoURL: () => 'https://github.com/FloraBotTeam/FloraBotTeam.github.io'
+      }),
+      GitChangelogMarkdownSection({
+        exclude: (id) => id.endsWith('index.md'),
+        sections: {
+          disableContributors: true
+        }
+  })
+    ],
+    optimizeDeps:{
+      exclude: [
+        '@nolebase/vitepress-plugin-inline-link-preview/client',
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+        '@nolebase/ui',
+        'vitepress'
+      ],
+    },
+    ssr: {
+      noExternal: [
+        '@nolebase/*'
+      ]
     }
   }
 })
