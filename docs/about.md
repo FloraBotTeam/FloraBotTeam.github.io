@@ -36,7 +36,7 @@ const members= [
 
 </script>
 
----
+
 <h1>关于项目</h1>
 
 FloraBot 是一款使用Python编写的开源ChatBot机器人框架，旨在提供更加简便快捷的服务，允许用户自行开发和安装插件来拓展功能
@@ -51,7 +51,7 @@ FloraBot 是一款使用Python编写的开源ChatBot机器人框架，旨在提�
 ## 项目贡献者
 以下为FloraBotteam的主要成员和主要社区贡献者：
 
----
+
 
 <VPTeamMembers size="small" :members="members" />
 
