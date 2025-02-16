@@ -1,5 +1,9 @@
 import { defineConfig } from 'vitepress'
 import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
+import { 
+  GitChangelog,
+  GitChangelogMarkdownSection
+ } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import locales from './locales'
 
 // https://vitepress.dev/reference/site-config
@@ -22,6 +26,12 @@ export default defineConfig({
     }
   },
   vite: {
+    plugins:[
+      GitChangelog({
+        repoURL: () => 'https://github.com/FloraBotTeam/FloraBotTeam.github.io'
+      }),
+      GitChangelogMarkdownSection()
+    ],
     optimizeDeps:{
       exclude: [
         '@nolebase/vitepress-plugin-inline-link-preview/client',
