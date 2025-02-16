@@ -37,7 +37,7 @@ const members= [
 <VPTeamPage>
     <VPTeamPageTitle>
     <template #title>
-        FloraBot 团队成员
+        FloraBot 团队页
     </template>
     </VPTeamPageTitle>
     <VPTeamMembers size="small" :members="members" />
