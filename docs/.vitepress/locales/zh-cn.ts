@@ -11,7 +11,7 @@ export default defineConfig({
     sidebar: {
         '/guide/': { base: '/', items: sidebarGuide() },
         '/develop/': { base: '/', items: sidebarDevelop() }
-        '/': { base: '/', iteam: other() }
+        '/': { base: '/', items: other() }
     },
 
     editLink: {
