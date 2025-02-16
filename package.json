@@ -14,6 +14,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.14.0",
     "@nolebase/vitepress-plugin-inline-link-preview": "^2.14.0",
     "busuanzi.pure.js": "^1.0.3",
     "canvas-confetti": "^1.9.3",
