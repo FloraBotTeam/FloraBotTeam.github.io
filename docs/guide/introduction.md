@@ -17,7 +17,7 @@ FloraBot 是一款使用Python编写的开源ChatBot机器人框架，旨在提�
 ## 快捷链接
 - FloraBot Github仓库: [https://github.com/FloraBotTeam/FloraBot](https://github.com/FloraBotTeam/FloraBot)
 - FloraBot 文档: [https://florabotteam.github.io/](https://florabotteam.github.io/)
-- FloraBot 交流群: [994825372](https://qm.qq.com/q/bdiS3MkV9K)
+
 ## 开源协议
 
 FloraBot使用GPL-3.0协议开源，允许用户在遵守GPL-3.0协议的前提下自由使用、修改、分发本项目
