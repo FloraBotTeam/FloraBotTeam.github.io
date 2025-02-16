@@ -10,7 +10,7 @@ export default defineConfig({
     logo: '/logo.png',
     sidebar: {
         '/guide/': { base: '/', items: sidebarGuide() },
-        '/develop/': { base: '/', items: sidebarDevelop() }
+        '/develop/': { base: '/', items: sidebarDevelop() },
         '/': { base: '/', items: other() }
     },
 
