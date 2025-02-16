@@ -1,4 +1,5 @@
 ---
+editLink: false
 gitChangelog: false
 ---
 
