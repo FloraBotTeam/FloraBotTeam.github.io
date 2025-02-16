@@ -11,6 +11,7 @@ export default defineConfig({
     sidebar: {
         '/guide/': { base: '/', items: sidebarGuide() },
         '/develop/': { base: '/', items: sidebarDevelop() }
+        '/': { base: '/', iteam: other() }
     },
 
     editLink: {
@@ -99,4 +100,9 @@ function sidebarDevelop() {
             ]
         }
     ]
+}
+function other() {
+  return [
+    { text: '关于项目', link: 'about', activeMatch: '/' }
+  ]
 }
