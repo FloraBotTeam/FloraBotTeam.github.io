@@ -39,6 +39,11 @@
 * **`MainPyName`: 插件主 .py 文件名, 不要带上 .py 后缀名, 另外 py 文件里不要赋值 `__name__` 变量!**  
 * **`PluginDescription`: 插件描述**  
 * **`EnablePlugin`: 是否启用插件, 这是一个标志, 用于启用和禁用插件的, 默认值为 `true` 即可**  
+* **`Help`: 帮助菜单内容列表**
+* **`Class`: 指令分类**
+* **`Commands`: 分类的指令列表**
+* **`Command`: 指令**
+* **`Content`: 指令介绍**
 ## 前言
 ::: warning
 **目前 WebSocket 协调连接可能调用一些 API 尚存一些问题, 一些框架的 API 调用起来可能会比较复杂, 目前做不到把它变得更加完美, 当前的WebSocket链接仍然处于不稳定状态**  
