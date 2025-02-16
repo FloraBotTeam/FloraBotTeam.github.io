@@ -1,3 +1,7 @@
+---
+gitChangelog: false
+---
+
 # 第三方插件列表
 
 ::: warning 免责声明
