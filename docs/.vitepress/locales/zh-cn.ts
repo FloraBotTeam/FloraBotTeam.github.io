@@ -64,7 +64,8 @@ function nav() {
               { text: 'CQHTTP', link: 'https://docs.go-cqhttp.org/' },
               { text: 'OneBot11', link: 'https://11.onebot.dev/' }
             ]
-          }
+          },
+        { text: '关于', link: '/about'}
     ];
 }
 
