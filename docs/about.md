@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: page
 gitChangelog: false
 ---
 <script setup>
