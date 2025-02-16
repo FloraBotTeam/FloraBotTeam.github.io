@@ -4,6 +4,7 @@ import {
   GitChangelog,
   GitChangelogMarkdownSection
  } from '@nolebase/vitepress-plugin-git-changelog/vite'
+
 import locales from './locales'
 
 // https://vitepress.dev/reference/site-config
@@ -30,11 +31,18 @@ export default defineConfig({
       GitChangelog({
         repoURL: () => 'https://github.com/FloraBotTeam/FloraBotTeam.github.io'
       }),
-      GitChangelogMarkdownSection()
+      GitChangelogMarkdownSection({
+        exclude: (id) => id.endsWith('index.md'),
+        sections: {
+          disableContributors: true
+        }
+  })
     ],
     optimizeDeps:{
       exclude: [
         '@nolebase/vitepress-plugin-inline-link-preview/client',
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+        '@nolebase/ui',
         'vitepress'
       ],
     },
