@@ -82,7 +82,7 @@ function sidebarDevelop() {
       text: '开发',
       collapsed: false,
       items: [
-        { text: '编写插件', link: 'develop/write_plugin', activeMatch: '/develop/' }
+        { text: '插件开发', link: 'develop/plugin_develop', activeMatch: '/develop/' }
       ]
     }
   ]
