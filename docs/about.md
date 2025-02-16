@@ -36,14 +36,25 @@ const members= [
 
 </script>
 
-<VPTeamPage>
-    <VPTeamPageTitle>
-    <template #title>
-        FloraBot 团队页
-    </template>
-    </VPTeamPageTitle>
-    <VPTeamMembers size="small" :members="members" />
-</VPTeamPage>
+---
+<h1>关于项目</h1>
+
+FloraBot 是一款使用Python编写的开源ChatBot机器人框架，旨在提供更加简便快捷的服务，允许用户自行开发和安装插件来拓展功能
+
+
+
+## 快捷链接
+- FloraBot Github仓库: [https://github.com/FloraBotTeam/FloraBot](https://github.com/FloraBotTeam/FloraBot)
+- FloraBot 文档: [https://florabotteam.github.io/](https://florabotteam.github.io/)
+- FloraBot 交流群: [994825372](https://qm.qq.com/q/bdiS3MkV9K)
+
+## 项目贡献者
+以下为FloraBotteam的主要成员和主页社区贡献者：
+
+---
+
+<VPTeamMembers size="small" :members="members" />
+
 
 
 
