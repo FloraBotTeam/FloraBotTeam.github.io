@@ -3,12 +3,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   description: "一个新的, 使用 Python 编写的支持插件的Bot",
-  cleanUrls: true,
+  cleanUrls: true, // 开启纯净链接
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   themeConfig: {
     nav: nav(),
     logo: '/logo.png',
-    sidebar: merge(sidebarGuide(), sidebarDevelop(), sidebarOther()),
+    sidebar: merge(), // 使用合并后的 merge 函数
     editLink: {
       pattern: '',
       text: '在 GitHub 上编辑此页面'
@@ -38,6 +38,7 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
     footer: { 
       message: 'Released under the MIT License.',  
+      // 自动更新时间
       copyright: `Copyright © 2024-${new Date().getFullYear()} present FloraBot Team.`, 
     }, 
   }
@@ -71,6 +72,14 @@ function sidebarGuide() {
         { text: '对接框架', link: 'guide/integration', activeMatch: '/guide/' },
         { text: '内置命令', link: 'guide/command', activeMatch: '/guide/' },
       ]
+    }, 
+    {
+      text: '开发',
+      collapsed: false,
+      items: [
+        { text: '插件开发', link: 'develop/plugin_develop', activeMatch: '/develop/' },
+        { text: '编写插件', link: 'develop/write_plugin', activeMatch: '/develop/' }
+      ]
     }
   ]
 }
@@ -81,7 +90,6 @@ function sidebarDevelop() {
       text: '开发',
       collapsed: false,
       items: [
-        { text: '插件开发', link: 'develop/plugin_develop', activeMatch: '/develop/' },
         { text: '编写插件', link: 'develop/write_plugin', activeMatch: '/develop/' }
       ]
     }
@@ -94,7 +102,10 @@ function sidebarOther() {
   ]
 }
 
-function merge(guide, develop, other) {
+function merge() {
+  const guide = sidebarGuide();
+  const develop = sidebarDevelop();
+
   const mergedDevelop = {
     text: '开发',
     collapsed: false,
@@ -103,5 +114,7 @@ function merge(guide, develop, other) {
 
   const filteredGuide = guide.filter(item => item.text !== '开发');
 
-  return [...filteredGuide, mergedDevelop, ...other];
+  const finalSidebar = [...filteredGuide, mergedDevelop, ...sidebarOther()];
+
+  return finalSidebar;
 }
