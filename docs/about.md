@@ -49,7 +49,7 @@ FloraBot 是一款使用Python编写的开源ChatBot机器人框架，旨在提�
 - FloraBot 交流群: [994825372](https://qm.qq.com/q/bdiS3MkV9K)
 
 ## 项目贡献者
-以下为FloraBotteam的主要成员和主页社区贡献者：
+以下为FloraBotteam的主要成员和主要社区贡献者：
 
 ---
 
