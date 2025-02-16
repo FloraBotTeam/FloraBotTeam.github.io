@@ -11,6 +11,8 @@ import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-chang
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import { NolebaseEnhancedReadabilitiesMenu, NolebaseEnhancedReadabilitiesScreenMenu } from "@nolebase/vitepress-plugin-enhanced-readabilities";
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
+import { NolebaseHighlightTargetedHeading } from "@nolebase/vitepress-plugin-highlight-targeted-heading/client";
+import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
 import DataPanel from "./components/DataPanel.vue";
 import Confetti from "./components/Confetti.vue";
 import Linkcard from "./components/Linkcard.vue"
@@ -24,7 +26,8 @@ export default {
     Layout: () => {
       return h(DefaultTheme.Layout,null ,{
         'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu),
-        'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu)
+        'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu),
+        'layout-top': () => [h(NolebaseHighlightTargetedHeading),]
       })
     },
     enhanceApp({ app, router }) {
