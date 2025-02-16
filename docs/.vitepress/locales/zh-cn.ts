@@ -10,7 +10,7 @@ export default defineConfig({
     logo: '/logo.png',
     sidebar: merge(), // 使用合并后的 merge 函数
     editLink: {
-      pattern: '',
+      pattern: 'https://github.com/FloraBotTeam/FloraBotTeam.github.io/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页面'
     },
     docFooter: {
@@ -28,7 +28,7 @@ export default defineConfig({
       }
     },
     socialLinks: [
-      { icon: 'github', link: '' }
+      { icon: 'github', link: 'https://github.com/FloraBotTeam/FloraBot' }
     ],
     langMenuLabel: '多语言',
     returnToTopLabel: '回到顶部',
@@ -52,8 +52,8 @@ function nav() {
     { text: '插件列表', link: '/guide/plugin_list' },
     { text: '参考文档',
       items: [
-        { text: 'CQHTTP', link: '' },
-        { text: 'OneBot11', link: '' }
+        { text: 'CQHTTP', link: 'https://docs.go-cqhttp.org/' },
+        { text: 'OneBot11', link: 'https://11.onebot.dev/' }
       ]
     }
   ]
