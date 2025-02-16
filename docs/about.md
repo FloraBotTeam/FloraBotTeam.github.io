@@ -1,5 +1,5 @@
 ---
-layout: page
+
 gitChangelog: false
 ---
 <script setup>
