@@ -57,6 +57,7 @@ function nav() {
         { text: '首页', link: '/' },
         { text: '指南', link: '/guide/introduction'},
         { text: '开发', link: '/develop/plugin_develop' },
+        { text: '插件列表', link: '/guide/plugin_list'},
         { text: '参考文档' ,
             items: [
               { text: 'CQHTTP', link: 'https://docs.go-cqhttp.org/' },
