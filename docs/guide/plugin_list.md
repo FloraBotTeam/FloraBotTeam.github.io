@@ -12,6 +12,10 @@ gitChangelog: false
 import data from '/plugin.json'
 </script>
 
+::: tip 提示
+如果需要为本页面添加新插件，请修改[plugin.json](https://github.com/FloraBotTeam/FloraBotTeam.github.io/edit/main/docs/plugin.json)!
+:::
+
 <table align="center">
     <thead>
         <tr>
