@@ -72,14 +72,6 @@ function sidebarGuide() {
         { text: '对接框架', link: 'guide/integration', activeMatch: '/guide/' },
         { text: '内置命令', link: 'guide/command', activeMatch: '/guide/' },
       ]
-    }, 
-    {
-      text: '开发',
-      collapsed: false,
-      items: [
-        { text: '插件开发', link: 'develop/plugin_develop', activeMatch: '/develop/' },
-        { text: '编写插件', link: 'develop/write_plugin', activeMatch: '/develop/' }
-      ]
     }
   ]
 }
