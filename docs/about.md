@@ -34,7 +34,14 @@ const members= [
 
 </script>
 
-<VPTeamMembers size="small" :members="members" />
+<VPTeamPage>
+    <VPTeamPageTitle>
+    <template #title>
+        FloraBot 团队成员
+    </template>
+    </VPTeamPageTitle>
+    <VPTeamMembers size="small" :members="members" />
+</VPTeamPage>
 
 
 
