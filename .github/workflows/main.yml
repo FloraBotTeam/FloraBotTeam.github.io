@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - dev # default branch
+      - main # default branch
+      - dev
     paths:
       - docs/**/**
       - package.json
@@ -39,6 +40,7 @@ jobs:
           path: ./docs/.vitepress/dist
   deploy:
     needs: pages
+    if: ${{ github.ref == 'refs/heads/main' }}
     permissions:
       pages: write
       id-token: write
