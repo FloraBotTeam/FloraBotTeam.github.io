@@ -32,6 +32,14 @@ const members= [
       { icon:'github',link:'https://github.com/wuchang325'}
     ]
   },
+  {
+    avatar: 'https://github.com/xiaoshuaiyo.png',
+    name: 'xiaoshuaiyo',
+    title: '项目贡献者',
+    links:[
+      { icon:'github',link:'https://github.com/xiaoshuaiyo'}
+    ]
+  }
 ]
 
 </script>
