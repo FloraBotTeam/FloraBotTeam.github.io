@@ -323,10 +323,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/octicon@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.4.tgz#63820f9fdd7a27e9ebd06c65253769445e2b2abf"
-  integrity sha512-gTnY16fXA/nUcuvLWPN7tMARF4X656drlB1DQWnmEzaoA8dtJ/rSdg/PSFHuljlrEruPWHCcMQPyX8W3DyN+/A==
+"@iconify-json/octicon@^1.2.4", "@iconify-json/octicon@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.5.tgz#30740e7a7ae6c248d8a6b616a4a436df9a17ee22"
+  integrity sha512-FVFjjmAC1R1Feis9k+COO3WvL3yumk0E7RxNvOEGT9K8CDp05k3Qg2lLlynBzZrSfuT1DhReJUUXFAj60ZHkpA==
   dependencies:
     "@iconify/types" "*"
 
@@ -375,17 +375,17 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nolebase/markdown-it-element-transform@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.14.0.tgz#783126552436b9de50282d9840c601bcb39b0156"
-  integrity sha512-Y5P6oIPdToXgsJY1jYmsJ4Bej4+THP9PPagYFdH7ItNpI0i2gTx1Z6ZNGWknBFpfDQvRLEurECYWJD+p2PEAJQ==
+"@nolebase/markdown-it-element-transform@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.15.0.tgz#fba1f0b7c6c61b5f3c3b7a766b8bc142e6ba26da"
+  integrity sha512-a/q4GjKVXxBA67+6ZkqH3TxzA3Xm5c0liRnSM4/CCQ5ADkFKE4onzwzXX3g7WJ5U81lOm+giuV3SLGaR9+ziGg==
 
-"@nolebase/ui@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.14.0.tgz#d950eb1fa839f6cce1524c4cb02aa21c566b0084"
-  integrity sha512-Xa6fngoz0XE0z0T3rKNOxLAUvLqbOax1FFEWhpQ8Q7OuWxRgRQb9/9O5JjxurvOBghkl1lag2/aZbgEqvN48KQ==
+"@nolebase/ui@^2.14.0", "@nolebase/ui@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.15.0.tgz#48e07fa3200470e5387efc8d05a6bcf68e508bb9"
+  integrity sha512-q+r8DdHTs/GMtoYgMtRaODDdrXBTsLFd7HwtZpaO+xhZVChOCyysxKCegSCC3xCn5zjtCg7iSYytnS+q0s87XA==
   dependencies:
-    "@iconify-json/octicon" "^1.2.4"
+    "@iconify-json/octicon" "^1.2.5"
     less "^4.2.2"
     vue "^3.5.13"
 
@@ -423,16 +423,16 @@
   dependencies:
     less "^4.2.2"
 
-"@nolebase/vitepress-plugin-inline-link-preview@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-inline-link-preview/-/vitepress-plugin-inline-link-preview-2.14.0.tgz#07eb3eb6b8c43d673073dc603bb38f7465fc9864"
-  integrity sha512-JiGDWFH8uv0ggN5YfLRzOBcz0TMc47JfsB+zBS1eIXqSkMifrd46rUouxlqt77UKpDsEhMAX5MTx/M33sRIGCw==
+"@nolebase/vitepress-plugin-inline-link-preview@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-inline-link-preview/-/vitepress-plugin-inline-link-preview-2.15.0.tgz#952b66aa03aaa2ef50091cbc648e1b51b718054f"
+  integrity sha512-kj/QUzSG/8Y569HBDcSVZ+HlMXMpm5L/dAP4wzZhrL4VdUx6dGBtsr2YE/sqTVuwyprwPtnTvsKeWBq81KPZOQ==
   dependencies:
     "@iconify-json/icon-park-outline" "^1.2.2"
-    "@iconify-json/octicon" "^1.2.4"
+    "@iconify-json/octicon" "^1.2.5"
     "@iconify-json/svg-spinners" "^1.2.2"
-    "@nolebase/markdown-it-element-transform" "^2.14.0"
-    "@nolebase/ui" "^2.14.0"
+    "@nolebase/markdown-it-element-transform" "^2.15.0"
+    "@nolebase/ui" "^2.15.0"
     less "^4.2.2"
     markdown-it "^14.1.0"
     markdown-it-attrs "^4.3.1"
