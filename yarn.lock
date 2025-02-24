@@ -330,6 +330,13 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/octicon@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.5.tgz#30740e7a7ae6c248d8a6b616a4a436df9a17ee22"
+  integrity sha512-FVFjjmAC1R1Feis9k+COO3WvL3yumk0E7RxNvOEGT9K8CDp05k3Qg2lLlynBzZrSfuT1DhReJUUXFAj60ZHkpA==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/simple-icons@^1.2.21":
   version "1.2.21"
   resolved "https://registry.yarnpkg.com/@iconify-json/simple-icons/-/simple-icons-1.2.21.tgz#89980b3901de08d1d38dcf1f3e87957e31551245"
@@ -380,23 +387,23 @@
   resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.14.0.tgz#783126552436b9de50282d9840c601bcb39b0156"
   integrity sha512-Y5P6oIPdToXgsJY1jYmsJ4Bej4+THP9PPagYFdH7ItNpI0i2gTx1Z6ZNGWknBFpfDQvRLEurECYWJD+p2PEAJQ==
 
-"@nolebase/ui@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.14.0.tgz#d950eb1fa839f6cce1524c4cb02aa21c566b0084"
-  integrity sha512-Xa6fngoz0XE0z0T3rKNOxLAUvLqbOax1FFEWhpQ8Q7OuWxRgRQb9/9O5JjxurvOBghkl1lag2/aZbgEqvN48KQ==
+"@nolebase/ui@^2.14.0", "@nolebase/ui@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.15.0.tgz#48e07fa3200470e5387efc8d05a6bcf68e508bb9"
+  integrity sha512-q+r8DdHTs/GMtoYgMtRaODDdrXBTsLFd7HwtZpaO+xhZVChOCyysxKCegSCC3xCn5zjtCg7iSYytnS+q0s87XA==
   dependencies:
-    "@iconify-json/octicon" "^1.2.4"
+    "@iconify-json/octicon" "^1.2.5"
     less "^4.2.2"
     vue "^3.5.13"
 
-"@nolebase/vitepress-plugin-enhanced-readabilities@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-enhanced-readabilities/-/vitepress-plugin-enhanced-readabilities-2.14.0.tgz#5ac630477c5cfd747cd4569605eb7e1da1d5ce93"
-  integrity sha512-8GqLwZ3KTsIYx4PVG+AqiDc88vQfXNIAjcOqKwO4rTHowoBlYYmKLELH2uw1VR456JrluHNjNTNv2+ePQkiSew==
+"@nolebase/vitepress-plugin-enhanced-readabilities@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-enhanced-readabilities/-/vitepress-plugin-enhanced-readabilities-2.15.0.tgz#fa9826c3a319c813e943e05bfd4e2b9945436bcc"
+  integrity sha512-ZtJlet4qAyKhPKZhRZoHGHTmhw1O4gxHylHk/AE4rbzGfODYNVfJUpFiKbTjbDrpiw584T0Iw4Xoz6pQZ1FgFg==
   dependencies:
     "@iconify-json/carbon" "^1.2.7"
     "@iconify-json/icon-park-outline" "^1.2.2"
-    "@nolebase/ui" "^2.14.0"
+    "@nolebase/ui" "^2.15.0"
     less "^4.2.2"
 
 "@nolebase/vitepress-plugin-git-changelog@^2.14.0":
