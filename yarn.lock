@@ -323,10 +323,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/octicon@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.4.tgz#63820f9fdd7a27e9ebd06c65253769445e2b2abf"
-  integrity sha512-gTnY16fXA/nUcuvLWPN7tMARF4X656drlB1DQWnmEzaoA8dtJ/rSdg/PSFHuljlrEruPWHCcMQPyX8W3DyN+/A==
+"@iconify-json/octicon@^1.2.4", "@iconify-json/octicon@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.5.tgz#30740e7a7ae6c248d8a6b616a4a436df9a17ee22"
+  integrity sha512-FVFjjmAC1R1Feis9k+COO3WvL3yumk0E7RxNvOEGT9K8CDp05k3Qg2lLlynBzZrSfuT1DhReJUUXFAj60ZHkpA==
   dependencies:
     "@iconify/types" "*"
 
@@ -380,12 +380,12 @@
   resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.14.0.tgz#783126552436b9de50282d9840c601bcb39b0156"
   integrity sha512-Y5P6oIPdToXgsJY1jYmsJ4Bej4+THP9PPagYFdH7ItNpI0i2gTx1Z6ZNGWknBFpfDQvRLEurECYWJD+p2PEAJQ==
 
-"@nolebase/ui@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.14.0.tgz#d950eb1fa839f6cce1524c4cb02aa21c566b0084"
-  integrity sha512-Xa6fngoz0XE0z0T3rKNOxLAUvLqbOax1FFEWhpQ8Q7OuWxRgRQb9/9O5JjxurvOBghkl1lag2/aZbgEqvN48KQ==
+"@nolebase/ui@^2.14.0", "@nolebase/ui@^2.15.1":
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.15.1.tgz#86ab468a42ef4958a46833a67526421dd32e8192"
+  integrity sha512-IiKX2HQ8Ey7M3Nd27GZdoTrURTIq6DtkGOXc6mxrZV2REbMTYqYlby1Xwx6sfyOcSsDD7Ge62PlZze/yVIZsWg==
   dependencies:
-    "@iconify-json/octicon" "^1.2.4"
+    "@iconify-json/octicon" "^1.2.5"
     less "^4.2.2"
     vue "^3.5.13"
 
@@ -399,17 +399,17 @@
     "@nolebase/ui" "^2.14.0"
     less "^4.2.2"
 
-"@nolebase/vitepress-plugin-git-changelog@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-git-changelog/-/vitepress-plugin-git-changelog-2.14.0.tgz#b578ea1f8df49bc4a7668750b182f69628b43a62"
-  integrity sha512-vmi6qGvPX7Cy2Qxihy80qGoJ3MMhw8VAw02BTZHF/4Pf22HbVT4PyKX0Gj8AAHgA/a2ZLUnm4Y0g3R9fsKX2wg==
+"@nolebase/vitepress-plugin-git-changelog@^2.15.1":
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-git-changelog/-/vitepress-plugin-git-changelog-2.15.1.tgz#5a4c1db7795a9b9d3048bb63f8132115cc0f62f3"
+  integrity sha512-CG2rQNTvil+DztNe2/Z5tMLi+vNLIN0A/HE6YbyWdUup9965FqzdNxv5XKO1qVfb6hqCIMmPeIRTUJIq/SZfxw==
   dependencies:
-    "@iconify-json/octicon" "^1.2.4"
-    "@nolebase/ui" "^2.14.0"
+    "@iconify-json/octicon" "^1.2.5"
+    "@nolebase/ui" "^2.15.1"
     colorette "^2.0.20"
     date-fns "^4.1.0"
     defu "^6.1.4"
-    es-toolkit "^1.32.0"
+    es-toolkit "^1.33.0"
     execa "^9.5.2"
     globby "^14.1.0"
     gray-matter "^4.0.3"
@@ -936,10 +936,10 @@ errno@^0.1.1:
   dependencies:
     prr "~1.0.1"
 
-es-toolkit@^1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/es-toolkit/-/es-toolkit-1.32.0.tgz#a3254bffe31fcd52a0abb1b77074e5f0fa76b7fd"
-  integrity sha512-ZfSfHP1l6ubgW/B/FRtqb9bYdMvI6jizbOSfbwwJNcOQ1QE6TFsC3jpQkZ900uUPSR3t3SU5Ds7UWKnYz+uP8Q==
+es-toolkit@^1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/es-toolkit/-/es-toolkit-1.33.0.tgz#bcc9d92ef2e1ed4618c00dd30dfda9faddf4a0b7"
+  integrity sha512-X13Q/ZSc+vsO1q600bvNK4bxgXMkHcf//RxCmYDaRY5DAcT+eoXjY5hoAPGMdRnWQjvyLEcyauG3b6hz76LNqg==
 
 esbuild@^0.21.3:
   version "0.21.5"
