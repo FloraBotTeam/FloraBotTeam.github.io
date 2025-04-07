@@ -4,7 +4,7 @@
   "description": "FloraBot documentation website",
   "license": "MIT",
   "devDependencies": {
-    "@nolebase/vitepress-plugin-git-changelog": "^2.14.0",
+    "@nolebase/vitepress-plugin-git-changelog": "^2.16.0",
     "vitepress": "^1.6.3",
     "vue": "^3.4.38"
   },
