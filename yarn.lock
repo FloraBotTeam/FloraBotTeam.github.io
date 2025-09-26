@@ -375,10 +375,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nolebase/markdown-it-element-transform@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.14.0.tgz#783126552436b9de50282d9840c601bcb39b0156"
-  integrity sha512-Y5P6oIPdToXgsJY1jYmsJ4Bej4+THP9PPagYFdH7ItNpI0i2gTx1Z6ZNGWknBFpfDQvRLEurECYWJD+p2PEAJQ==
+"@nolebase/markdown-it-element-transform@^2.17.0":
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.17.0.tgz#7b7abcb8eab2da8e716490affd1546654466d5a1"
+  integrity sha512-WRR/kBGQviAh+5jnpwtj3HtjWPIr7ju0sFdU0N48r9for3/Dcq+cBGztmVevadg8ULXJ8lTKzXqMy8+Exf7+HQ==
 
 "@nolebase/ui@^2.14.0", "@nolebase/ui@^2.17.0":
   version "2.17.0"
@@ -423,17 +423,17 @@
   dependencies:
     less "^4.2.2"
 
-"@nolebase/vitepress-plugin-inline-link-preview@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-inline-link-preview/-/vitepress-plugin-inline-link-preview-2.14.0.tgz#07eb3eb6b8c43d673073dc603bb38f7465fc9864"
-  integrity sha512-JiGDWFH8uv0ggN5YfLRzOBcz0TMc47JfsB+zBS1eIXqSkMifrd46rUouxlqt77UKpDsEhMAX5MTx/M33sRIGCw==
+"@nolebase/vitepress-plugin-inline-link-preview@^2.17.0":
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-inline-link-preview/-/vitepress-plugin-inline-link-preview-2.17.0.tgz#807dec15cc4033608c8c248ee8cf162a06ca00c3"
+  integrity sha512-7hBw5xX5P6KS07ajQvqvxtFD5j1U2/fVyhwH/MG/RO0RjVfn7sLQwFM2s2yxL3VIjawn2wj9FytDJYfCLVT/sw==
   dependencies:
     "@iconify-json/icon-park-outline" "^1.2.2"
-    "@iconify-json/octicon" "^1.2.4"
+    "@iconify-json/octicon" "^1.2.5"
     "@iconify-json/svg-spinners" "^1.2.2"
-    "@nolebase/markdown-it-element-transform" "^2.14.0"
-    "@nolebase/ui" "^2.14.0"
-    less "^4.2.2"
+    "@nolebase/markdown-it-element-transform" "^2.17.0"
+    "@nolebase/ui" "^2.17.0"
+    less "^4.3.0"
     markdown-it "^14.1.0"
     markdown-it-attrs "^4.3.1"
 
