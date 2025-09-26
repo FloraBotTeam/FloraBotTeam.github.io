@@ -323,13 +323,6 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/octicon@^1.2.4", "@iconify-json/octicon@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.5.tgz#30740e7a7ae6c248d8a6b616a4a436df9a17ee22"
-  integrity sha512-FVFjjmAC1R1Feis9k+COO3WvL3yumk0E7RxNvOEGT9K8CDp05k3Qg2lLlynBzZrSfuT1DhReJUUXFAj60ZHkpA==
-  dependencies:
-    "@iconify/types" "*"
-
 "@iconify-json/octicon@^1.2.5":
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.5.tgz#30740e7a7ae6c248d8a6b616a4a436df9a17ee22"
@@ -387,7 +380,7 @@
   resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.17.0.tgz#7b7abcb8eab2da8e716490affd1546654466d5a1"
   integrity sha512-WRR/kBGQviAh+5jnpwtj3HtjWPIr7ju0sFdU0N48r9for3/Dcq+cBGztmVevadg8ULXJ8lTKzXqMy8+Exf7+HQ==
 
-"@nolebase/ui@^2.14.0", "@nolebase/ui@^2.17.0":
+"@nolebase/ui@^2.17.0":
   version "2.17.0"
   resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.17.0.tgz#f48b54d5ddc61c6ef13d8845d48b6cc9c74857a7"
   integrity sha512-t0zr9FiUMju7W/iL/BzX+JuZZz0UgAC1ZMN4VKAOtRIUaQhPjE3LZMqfOrrsWhKNT8uTY7CVIcIzSulPuAe1og==
@@ -1616,10 +1609,10 @@ signal-exit@^4.1.0:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
-simple-icons-font@^14.14.0:
-  version "14.14.0"
-  resolved "https://registry.yarnpkg.com/simple-icons-font/-/simple-icons-font-14.14.0.tgz#9153a7b356a44142256eb2a2ccd47cfa1cb194a6"
-  integrity sha512-w7g2fAylQEXRDdjwemAx9CxQ/1o7KjfaTktvPyDtr6S4UIH0AVgxvYf3jnfKof0n3S2xHAJYby8aOHWB3cpV5A==
+simple-icons-font@^15.16.0:
+  version "15.16.0"
+  resolved "https://registry.yarnpkg.com/simple-icons-font/-/simple-icons-font-15.16.0.tgz#0b3d8ef1477d56e5af2924d2dc3902aa934686b7"
+  integrity sha512-+iwJ2RXihdkchIcvah3qocPFywOy+gJuron7dOGoae/pqL8ltbtBaQWt1oA9w6dXF1Z496RswvzsETP7G/FsLg==
 
 slash@^5.1.0:
   version "5.1.0"
