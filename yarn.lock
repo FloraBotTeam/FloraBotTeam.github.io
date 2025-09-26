@@ -323,13 +323,6 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/octicon@^1.2.4", "@iconify-json/octicon@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.5.tgz#30740e7a7ae6c248d8a6b616a4a436df9a17ee22"
-  integrity sha512-FVFjjmAC1R1Feis9k+COO3WvL3yumk0E7RxNvOEGT9K8CDp05k3Qg2lLlynBzZrSfuT1DhReJUUXFAj60ZHkpA==
-  dependencies:
-    "@iconify/types" "*"
-
 "@iconify-json/octicon@^1.2.5":
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.5.tgz#30740e7a7ae6c248d8a6b616a4a436df9a17ee22"
@@ -387,7 +380,7 @@
   resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.17.0.tgz#7b7abcb8eab2da8e716490affd1546654466d5a1"
   integrity sha512-WRR/kBGQviAh+5jnpwtj3HtjWPIr7ju0sFdU0N48r9for3/Dcq+cBGztmVevadg8ULXJ8lTKzXqMy8+Exf7+HQ==
 
-"@nolebase/ui@^2.14.0", "@nolebase/ui@^2.17.0":
+"@nolebase/ui@^2.17.0":
   version "2.17.0"
   resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.17.0.tgz#f48b54d5ddc61c6ef13d8845d48b6cc9c74857a7"
   integrity sha512-t0zr9FiUMju7W/iL/BzX+JuZZz0UgAC1ZMN4VKAOtRIUaQhPjE3LZMqfOrrsWhKNT8uTY7CVIcIzSulPuAe1og==
@@ -423,12 +416,12 @@
     less "^4.3.0"
     uncrypto "^0.1.3"
 
-"@nolebase/vitepress-plugin-highlight-targeted-heading@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-highlight-targeted-heading/-/vitepress-plugin-highlight-targeted-heading-2.14.0.tgz#c968ee8eecff7fe47f180fdbd8431ab5d73b5dd7"
-  integrity sha512-vRrJ9GVa7esswnhZubYOz3vDa0wuacExGU39iAC4mG9XYjMk4KmGdRUbfrhdBm4C2R/pcCJfJnfXrlLs0VSU3A==
+"@nolebase/vitepress-plugin-highlight-targeted-heading@^2.18.2":
+  version "2.18.2"
+  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-highlight-targeted-heading/-/vitepress-plugin-highlight-targeted-heading-2.18.2.tgz#50b494ee1daceacdc758f84adb747a3691362034"
+  integrity sha512-RVrT7FgyjxrnFFR9twc1OJI/5B09+biVbSiO36Yiu2YC+kRMz1Mb553l2DyioLtWJgVNTJ7sj66ZJi40JpDh7g==
   dependencies:
-    less "^4.2.2"
+    less "^4.4.0"
 
 "@nolebase/vitepress-plugin-inline-link-preview@^2.17.0":
   version "2.17.0"
@@ -1219,10 +1212,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-less@^4.2.2, less@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/less/-/less-4.3.0.tgz#ef0cfc260a9ca8079ed8d0e3512bda8a12c82f2a"
-  integrity sha512-X9RyH9fvemArzfdP8Pi3irr7lor2Ok4rOttDXBhlwDg+wKQsXOXgHWduAJE1EsF7JJx0w0bcO6BC6tCKKYnXKA==
+less@^4.3.0, less@^4.4.0:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/less/-/less-4.4.1.tgz#2f97168bf887ca6a9957ee69e16cc34f8b007cc7"
+  integrity sha512-X9HKyiXPi0f/ed0XhgUlBeFfxrlDP3xR4M7768Zl+WXLUViuL9AOPPJP4nCV0tgRWvTYvpNmN0SFhZOQzy16PA==
   dependencies:
     copy-anything "^2.0.1"
     parse-node-version "^1.0.1"
