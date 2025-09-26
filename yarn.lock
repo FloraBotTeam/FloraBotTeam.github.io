@@ -323,10 +323,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/octicon@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.4.tgz#63820f9fdd7a27e9ebd06c65253769445e2b2abf"
-  integrity sha512-gTnY16fXA/nUcuvLWPN7tMARF4X656drlB1DQWnmEzaoA8dtJ/rSdg/PSFHuljlrEruPWHCcMQPyX8W3DyN+/A==
+"@iconify-json/octicon@^1.2.4", "@iconify-json/octicon@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.5.tgz#30740e7a7ae6c248d8a6b616a4a436df9a17ee22"
+  integrity sha512-FVFjjmAC1R1Feis9k+COO3WvL3yumk0E7RxNvOEGT9K8CDp05k3Qg2lLlynBzZrSfuT1DhReJUUXFAj60ZHkpA==
   dependencies:
     "@iconify/types" "*"
 
@@ -380,13 +380,13 @@
   resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.14.0.tgz#783126552436b9de50282d9840c601bcb39b0156"
   integrity sha512-Y5P6oIPdToXgsJY1jYmsJ4Bej4+THP9PPagYFdH7ItNpI0i2gTx1Z6ZNGWknBFpfDQvRLEurECYWJD+p2PEAJQ==
 
-"@nolebase/ui@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.14.0.tgz#d950eb1fa839f6cce1524c4cb02aa21c566b0084"
-  integrity sha512-Xa6fngoz0XE0z0T3rKNOxLAUvLqbOax1FFEWhpQ8Q7OuWxRgRQb9/9O5JjxurvOBghkl1lag2/aZbgEqvN48KQ==
+"@nolebase/ui@^2.14.0", "@nolebase/ui@^2.17.0":
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.17.0.tgz#f48b54d5ddc61c6ef13d8845d48b6cc9c74857a7"
+  integrity sha512-t0zr9FiUMju7W/iL/BzX+JuZZz0UgAC1ZMN4VKAOtRIUaQhPjE3LZMqfOrrsWhKNT8uTY7CVIcIzSulPuAe1og==
   dependencies:
-    "@iconify-json/octicon" "^1.2.4"
-    less "^4.2.2"
+    "@iconify-json/octicon" "^1.2.5"
+    less "^4.3.0"
     vue "^3.5.13"
 
 "@nolebase/vitepress-plugin-enhanced-readabilities@^2.14.0":
@@ -399,21 +399,21 @@
     "@nolebase/ui" "^2.14.0"
     less "^4.2.2"
 
-"@nolebase/vitepress-plugin-git-changelog@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-git-changelog/-/vitepress-plugin-git-changelog-2.14.0.tgz#b578ea1f8df49bc4a7668750b182f69628b43a62"
-  integrity sha512-vmi6qGvPX7Cy2Qxihy80qGoJ3MMhw8VAw02BTZHF/4Pf22HbVT4PyKX0Gj8AAHgA/a2ZLUnm4Y0g3R9fsKX2wg==
+"@nolebase/vitepress-plugin-git-changelog@^2.17.0":
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-git-changelog/-/vitepress-plugin-git-changelog-2.17.0.tgz#ec4609cce7a658ea13fe81f0a2cc0d0a369b3db1"
+  integrity sha512-XuJY/rVOltgKvfnjTtkCOTcgNsYPIAlAtUAz3kAmyVs9OQ5/26bBNhmAlcoOm5knQ6jffTTXLqSFQJcpA52Q0Q==
   dependencies:
-    "@iconify-json/octicon" "^1.2.4"
-    "@nolebase/ui" "^2.14.0"
+    "@iconify-json/octicon" "^1.2.5"
+    "@nolebase/ui" "^2.17.0"
     colorette "^2.0.20"
     date-fns "^4.1.0"
     defu "^6.1.4"
-    es-toolkit "^1.32.0"
+    es-toolkit "^1.36.0"
     execa "^9.5.2"
     globby "^14.1.0"
     gray-matter "^4.0.3"
-    less "^4.2.2"
+    less "^4.3.0"
     uncrypto "^0.1.3"
 
 "@nolebase/vitepress-plugin-highlight-targeted-heading@^2.14.0":
@@ -936,10 +936,10 @@ errno@^0.1.1:
   dependencies:
     prr "~1.0.1"
 
-es-toolkit@^1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/es-toolkit/-/es-toolkit-1.32.0.tgz#a3254bffe31fcd52a0abb1b77074e5f0fa76b7fd"
-  integrity sha512-ZfSfHP1l6ubgW/B/FRtqb9bYdMvI6jizbOSfbwwJNcOQ1QE6TFsC3jpQkZ900uUPSR3t3SU5Ds7UWKnYz+uP8Q==
+es-toolkit@^1.36.0:
+  version "1.36.0"
+  resolved "https://registry.yarnpkg.com/es-toolkit/-/es-toolkit-1.36.0.tgz#98a9ddba346cde1aeca099f9bc27c05838c68b9a"
+  integrity sha512-5lpkRpDELuTSeAL//Rcg5urg+K/yOD1BobJSiNeCc89snMqgrhckmj8jdljqraDbpREiXTNW311RN518eVHBng==
 
 esbuild@^0.21.3:
   version "0.21.5"
@@ -1212,10 +1212,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-less@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/less/-/less-4.2.2.tgz#4b59ede113933b58ab152190edf9180fc36846d8"
-  integrity sha512-tkuLHQlvWUTeQ3doAqnHbNn8T6WX1KA8yvbKG9x4VtKtIjHsVKQZCH11zRgAfbDAXC2UNIg/K9BYAAcEzUIrNg==
+less@^4.2.2, less@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/less/-/less-4.3.0.tgz#ef0cfc260a9ca8079ed8d0e3512bda8a12c82f2a"
+  integrity sha512-X9RyH9fvemArzfdP8Pi3irr7lor2Ok4rOttDXBhlwDg+wKQsXOXgHWduAJE1EsF7JJx0w0bcO6BC6tCKKYnXKA==
   dependencies:
     copy-anything "^2.0.1"
     parse-node-version "^1.0.1"
