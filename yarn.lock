@@ -322,10 +322,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/octicon@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.5.tgz#30740e7a7ae6c248d8a6b616a4a436df9a17ee22"
-  integrity sha512-FVFjjmAC1R1Feis9k+COO3WvL3yumk0E7RxNvOEGT9K8CDp05k3Qg2lLlynBzZrSfuT1DhReJUUXFAj60ZHkpA==
+"@iconify-json/octicon@^1.2.10", "@iconify-json/octicon@^1.2.5":
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.14.tgz#949ff5aee04707875f54e0b68e9bdcb62a86271b"
+  integrity sha512-EVP0wcWrJW8L9jLm5JxUiNWAhjm+WeEVxR1/do9ChCx7QRBbNTdaV5u5d9l8H+u3liTgcIijPU8wpc9N7TQG1w==
   dependencies:
     "@iconify/types" "*"
 
@@ -379,14 +379,13 @@
   resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.17.0.tgz#7b7abcb8eab2da8e716490affd1546654466d5a1"
   integrity sha512-WRR/kBGQviAh+5jnpwtj3HtjWPIr7ju0sFdU0N48r9for3/Dcq+cBGztmVevadg8ULXJ8lTKzXqMy8+Exf7+HQ==
 
-"@nolebase/ui@^2.17.0":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.17.0.tgz#f48b54d5ddc61c6ef13d8845d48b6cc9c74857a7"
-  integrity sha512-t0zr9FiUMju7W/iL/BzX+JuZZz0UgAC1ZMN4VKAOtRIUaQhPjE3LZMqfOrrsWhKNT8uTY7CVIcIzSulPuAe1og==
+"@nolebase/ui@^2.17.0", "@nolebase/ui@^2.18.2":
+  version "2.18.2"
+  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.18.2.tgz#151b9545ba2999309c90d9596a120cce6302a44b"
+  integrity sha512-xxfRacF9cqQ5/umMhvhr0y2W4SkhzTmrrAHJ0UAAu/pIWfV/JPE9Hj0buH06bK7ZEUur+036gxkKlStI6UtDBw==
   dependencies:
-    "@iconify-json/octicon" "^1.2.5"
-    less "^4.3.0"
-    vue "^3.5.13"
+    "@iconify-json/octicon" "^1.2.10"
+    less "^4.4.0"
 
 "@nolebase/vitepress-plugin-enhanced-readabilities@^2.17.0":
   version "2.17.0"
@@ -398,21 +397,21 @@
     "@nolebase/ui" "^2.17.0"
     less "^4.3.0"
 
-"@nolebase/vitepress-plugin-git-changelog@^2.17.0":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-git-changelog/-/vitepress-plugin-git-changelog-2.17.0.tgz#ec4609cce7a658ea13fe81f0a2cc0d0a369b3db1"
-  integrity sha512-XuJY/rVOltgKvfnjTtkCOTcgNsYPIAlAtUAz3kAmyVs9OQ5/26bBNhmAlcoOm5knQ6jffTTXLqSFQJcpA52Q0Q==
+"@nolebase/vitepress-plugin-git-changelog@^2.18.2":
+  version "2.18.2"
+  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-git-changelog/-/vitepress-plugin-git-changelog-2.18.2.tgz#668c4eec238101d5e6361b5f32a5088411153da0"
+  integrity sha512-TT1nxP+iS+5K8OLtkEr1EZ4bhCa4iqggly0JTD7TsO01hcwzMovr0lRaxPTo/4i/0bwMiPcaKxpKJ2zJIiu4Kw==
   dependencies:
-    "@iconify-json/octicon" "^1.2.5"
-    "@nolebase/ui" "^2.17.0"
+    "@iconify-json/octicon" "^1.2.10"
+    "@nolebase/ui" "^2.18.2"
     colorette "^2.0.20"
     date-fns "^4.1.0"
     defu "^6.1.4"
-    es-toolkit "^1.36.0"
-    execa "^9.5.2"
+    es-toolkit "^1.39.9"
+    execa "^9.6.0"
     globby "^14.1.0"
     gray-matter "^4.0.3"
-    less "^4.3.0"
+    less "^4.4.0"
     uncrypto "^0.1.3"
 
 "@nolebase/vitepress-plugin-highlight-targeted-heading@^2.14.0":
@@ -882,7 +881,7 @@ copy-anything@^3.0.2:
   dependencies:
     is-what "^4.1.8"
 
-cross-spawn@^7.0.3:
+cross-spawn@^7.0.6:
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.6.tgz#8a58fe78f00dcd70c370451759dfbfaf03e8ee9f"
   integrity sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==
@@ -935,10 +934,10 @@ errno@^0.1.1:
   dependencies:
     prr "~1.0.1"
 
-es-toolkit@^1.36.0:
-  version "1.36.0"
-  resolved "https://registry.yarnpkg.com/es-toolkit/-/es-toolkit-1.36.0.tgz#98a9ddba346cde1aeca099f9bc27c05838c68b9a"
-  integrity sha512-5lpkRpDELuTSeAL//Rcg5urg+K/yOD1BobJSiNeCc89snMqgrhckmj8jdljqraDbpREiXTNW311RN518eVHBng==
+es-toolkit@^1.39.9:
+  version "1.39.10"
+  resolved "https://registry.yarnpkg.com/es-toolkit/-/es-toolkit-1.39.10.tgz#513407af73e79f9940e7ec7650f2e6dceeaf1d81"
+  integrity sha512-E0iGnTtbDhkeczB0T+mxmoVlT4YNweEKBLq7oaU4p11mecdsZpNWOglI4895Vh4usbQ+LsJiuLuI2L0Vdmfm2w==
 
 esbuild@^0.21.3:
   version "0.21.5"
@@ -979,23 +978,23 @@ estree-walker@^2.0.2:
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
   integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
 
-execa@^9.5.2:
-  version "9.5.2"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-9.5.2.tgz#a4551034ee0795e241025d2f987dab3f4242dff2"
-  integrity sha512-EHlpxMCpHWSAh1dgS6bVeoLAXGnJNdR93aabr4QCGbzOM73o5XmRfM/e5FUqsw3aagP8S8XEWUWFAxnRBnAF0Q==
+execa@^9.6.0:
+  version "9.6.0"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-9.6.0.tgz#38665530e54e2e018384108322f37f35ae74f3bc"
+  integrity sha512-jpWzZ1ZhwUmeWRhS7Qv3mhpOhLfwI+uAX4e5fOcXqwMR7EcJ0pj2kV1CVzHVMX/LphnKWD3LObjZCoJ71lKpHw==
   dependencies:
     "@sindresorhus/merge-streams" "^4.0.0"
-    cross-spawn "^7.0.3"
+    cross-spawn "^7.0.6"
     figures "^6.1.0"
     get-stream "^9.0.0"
-    human-signals "^8.0.0"
+    human-signals "^8.0.1"
     is-plain-obj "^4.1.0"
     is-stream "^4.0.1"
     npm-run-path "^6.0.0"
-    pretty-ms "^9.0.0"
+    pretty-ms "^9.2.0"
     signal-exit "^4.1.0"
     strip-final-newline "^4.0.0"
-    yoctocolors "^2.0.0"
+    yoctocolors "^2.1.1"
 
 extend-shallow@^2.0.1:
   version "2.0.1"
@@ -1124,10 +1123,10 @@ html-void-elements@^3.0.0:
   resolved "https://registry.yarnpkg.com/html-void-elements/-/html-void-elements-3.0.0.tgz#fc9dbd84af9e747249034d4d62602def6517f1d7"
   integrity sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==
 
-human-signals@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-8.0.0.tgz#2d3d63481c7c2319f0373428b01ffe30da6df852"
-  integrity sha512-/1/GPCpDUCCYwlERiYjxoczfP0zfvZMU/OWgQPMya9AbAE24vseigFdhAMObpc8Q4lc/kjutPfUddDYyAmejnA==
+human-signals@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-8.0.1.tgz#f08bb593b6d1db353933d06156cedec90abe51fb"
+  integrity sha512-eKCa6bwnJhvxj14kZk5NCPc6Hb6BdsU9DZcOnmQKSnO1VKrfV0zCvtttPZUsBvjmNDn8rpcJfpwSYnHBjc95MQ==
 
 iconv-lite@^0.6.3:
   version "0.6.3"
@@ -1211,10 +1210,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-less@^4.2.2, less@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/less/-/less-4.3.0.tgz#ef0cfc260a9ca8079ed8d0e3512bda8a12c82f2a"
-  integrity sha512-X9RyH9fvemArzfdP8Pi3irr7lor2Ok4rOttDXBhlwDg+wKQsXOXgHWduAJE1EsF7JJx0w0bcO6BC6tCKKYnXKA==
+less@^4.2.2, less@^4.3.0, less@^4.4.0:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/less/-/less-4.4.1.tgz#2f97168bf887ca6a9957ee69e16cc34f8b007cc7"
+  integrity sha512-X9HKyiXPi0f/ed0XhgUlBeFfxrlDP3xR4M7768Zl+WXLUViuL9AOPPJP4nCV0tgRWvTYvpNmN0SFhZOQzy16PA==
   dependencies:
     copy-anything "^2.0.1"
     parse-node-version "^1.0.1"
@@ -1460,10 +1459,10 @@ preact@^10.0.0:
   resolved "https://registry.yarnpkg.com/preact/-/preact-10.23.2.tgz#52deec92796ae0f0cc6b034d9c66e0fbc1b837dc"
   integrity sha512-kKYfePf9rzKnxOAKDpsWhg/ysrHPqT+yQ7UW4JjdnqjFIeNUnNcEJvhuA8fDenxAGWzUqtd51DfVg7xp/8T9NA==
 
-pretty-ms@^9.0.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-9.2.0.tgz#e14c0aad6493b69ed63114442a84133d7e560ef0"
-  integrity sha512-4yf0QO/sllf/1zbZWYnvWw3NxCQwLXKzIj0G849LSufP15BXKM0rbD2Z3wVnkMfjdn/CB0Dpp444gYAACdsplg==
+pretty-ms@^9.2.0:
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-9.3.0.tgz#dd2524fcb3c326b4931b2272dfd1e1a8ed9a9f5a"
+  integrity sha512-gjVS5hOP+M3wMm5nmNOucbIrqudzs9v/57bWRHQWLYklXqoXKrVfYW2W9+glfGsqtPgpiz5WwyEEB+ksXIx3gQ==
   dependencies:
     parse-ms "^4.0.0"
 
@@ -1824,10 +1823,10 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-yoctocolors@^2.0.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/yoctocolors/-/yoctocolors-2.1.1.tgz#e0167474e9fbb9e8b3ecca738deaa61dd12e56fc"
-  integrity sha512-GQHQqAopRhwU8Kt1DDM8NjibDXHC8eoh1erhGAJPEyveY9qqVeXvVikNKrDz69sHowPMorbPUrH/mx8c50eiBQ==
+yoctocolors@^2.1.1:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/yoctocolors/-/yoctocolors-2.1.2.tgz#d795f54d173494e7d8db93150cec0ed7f678c83a"
+  integrity sha512-CzhO+pFNo8ajLM2d2IW/R93ipy99LWjtwblvC1RsoSUMZgyLbYFr221TnSNT7GjGdYui6P459mw9JH/g/zW2ug==
 
 zwitch@^2.0.4:
   version "2.0.4"
