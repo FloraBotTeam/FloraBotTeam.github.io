@@ -322,10 +322,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/octicon@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.5.tgz#30740e7a7ae6c248d8a6b616a4a436df9a17ee22"
-  integrity sha512-FVFjjmAC1R1Feis9k+COO3WvL3yumk0E7RxNvOEGT9K8CDp05k3Qg2lLlynBzZrSfuT1DhReJUUXFAj60ZHkpA==
+"@iconify-json/octicon@^1.2.10", "@iconify-json/octicon@^1.2.5":
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/@iconify-json/octicon/-/octicon-1.2.14.tgz#949ff5aee04707875f54e0b68e9bdcb62a86271b"
+  integrity sha512-EVP0wcWrJW8L9jLm5JxUiNWAhjm+WeEVxR1/do9ChCx7QRBbNTdaV5u5d9l8H+u3liTgcIijPU8wpc9N7TQG1w==
   dependencies:
     "@iconify/types" "*"
 
@@ -374,19 +374,18 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nolebase/markdown-it-element-transform@^2.17.0":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.17.0.tgz#7b7abcb8eab2da8e716490affd1546654466d5a1"
-  integrity sha512-WRR/kBGQviAh+5jnpwtj3HtjWPIr7ju0sFdU0N48r9for3/Dcq+cBGztmVevadg8ULXJ8lTKzXqMy8+Exf7+HQ==
+"@nolebase/markdown-it-element-transform@^2.18.2":
+  version "2.18.2"
+  resolved "https://registry.yarnpkg.com/@nolebase/markdown-it-element-transform/-/markdown-it-element-transform-2.18.2.tgz#723c59c715f3f5340b3cdaae745db5c43a9c80a5"
+  integrity sha512-uA0QR2BC4qN2fT/MODFghCO4v7Y1dEZD7lMgz17Ma2El+74KSVLaDxQtIMkA0Vs67QmjLKK99wo/LOVdPsPNMg==
 
-"@nolebase/ui@^2.17.0":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.17.0.tgz#f48b54d5ddc61c6ef13d8845d48b6cc9c74857a7"
-  integrity sha512-t0zr9FiUMju7W/iL/BzX+JuZZz0UgAC1ZMN4VKAOtRIUaQhPjE3LZMqfOrrsWhKNT8uTY7CVIcIzSulPuAe1og==
+"@nolebase/ui@^2.17.0", "@nolebase/ui@^2.18.2":
+  version "2.18.2"
+  resolved "https://registry.yarnpkg.com/@nolebase/ui/-/ui-2.18.2.tgz#151b9545ba2999309c90d9596a120cce6302a44b"
+  integrity sha512-xxfRacF9cqQ5/umMhvhr0y2W4SkhzTmrrAHJ0UAAu/pIWfV/JPE9Hj0buH06bK7ZEUur+036gxkKlStI6UtDBw==
   dependencies:
-    "@iconify-json/octicon" "^1.2.5"
-    less "^4.3.0"
-    vue "^3.5.13"
+    "@iconify-json/octicon" "^1.2.10"
+    less "^4.4.0"
 
 "@nolebase/vitepress-plugin-enhanced-readabilities@^2.17.0":
   version "2.17.0"
@@ -422,17 +421,17 @@
   dependencies:
     less "^4.2.2"
 
-"@nolebase/vitepress-plugin-inline-link-preview@^2.17.0":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-inline-link-preview/-/vitepress-plugin-inline-link-preview-2.17.0.tgz#807dec15cc4033608c8c248ee8cf162a06ca00c3"
-  integrity sha512-7hBw5xX5P6KS07ajQvqvxtFD5j1U2/fVyhwH/MG/RO0RjVfn7sLQwFM2s2yxL3VIjawn2wj9FytDJYfCLVT/sw==
+"@nolebase/vitepress-plugin-inline-link-preview@^2.18.2":
+  version "2.18.2"
+  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-inline-link-preview/-/vitepress-plugin-inline-link-preview-2.18.2.tgz#e9dc551bd0112b4afb79f9dca040166d99816561"
+  integrity sha512-4hYW5uAYafv0NzZ5Rg78MFmBrT3R7DfCsWdlwH7D1KStZDqo40OYLk9/eOPlmuvpAU8rDfxz5dhMyw8tzxZVtg==
   dependencies:
     "@iconify-json/icon-park-outline" "^1.2.2"
-    "@iconify-json/octicon" "^1.2.5"
+    "@iconify-json/octicon" "^1.2.10"
     "@iconify-json/svg-spinners" "^1.2.2"
-    "@nolebase/markdown-it-element-transform" "^2.17.0"
-    "@nolebase/ui" "^2.17.0"
-    less "^4.3.0"
+    "@nolebase/markdown-it-element-transform" "^2.18.2"
+    "@nolebase/ui" "^2.18.2"
+    less "^4.4.0"
     markdown-it "^14.1.0"
     markdown-it-attrs "^4.3.1"
 
@@ -1211,10 +1210,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-less@^4.2.2, less@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/less/-/less-4.3.0.tgz#ef0cfc260a9ca8079ed8d0e3512bda8a12c82f2a"
-  integrity sha512-X9RyH9fvemArzfdP8Pi3irr7lor2Ok4rOttDXBhlwDg+wKQsXOXgHWduAJE1EsF7JJx0w0bcO6BC6tCKKYnXKA==
+less@^4.2.2, less@^4.3.0, less@^4.4.0:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/less/-/less-4.4.1.tgz#2f97168bf887ca6a9957ee69e16cc34f8b007cc7"
+  integrity sha512-X9HKyiXPi0f/ed0XhgUlBeFfxrlDP3xR4M7768Zl+WXLUViuL9AOPPJP4nCV0tgRWvTYvpNmN0SFhZOQzy16PA==
   dependencies:
     copy-anything "^2.0.1"
     parse-node-version "^1.0.1"
