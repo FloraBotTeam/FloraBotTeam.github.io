@@ -1608,10 +1608,10 @@ signal-exit@^4.1.0:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
-simple-icons-font@^14.14.0:
-  version "14.14.0"
-  resolved "https://registry.yarnpkg.com/simple-icons-font/-/simple-icons-font-14.14.0.tgz#9153a7b356a44142256eb2a2ccd47cfa1cb194a6"
-  integrity sha512-w7g2fAylQEXRDdjwemAx9CxQ/1o7KjfaTktvPyDtr6S4UIH0AVgxvYf3jnfKof0n3S2xHAJYby8aOHWB3cpV5A==
+simple-icons-font@^15.16.0:
+  version "15.16.0"
+  resolved "https://registry.yarnpkg.com/simple-icons-font/-/simple-icons-font-15.16.0.tgz#0b3d8ef1477d56e5af2924d2dc3902aa934686b7"
+  integrity sha512-+iwJ2RXihdkchIcvah3qocPFywOy+gJuron7dOGoae/pqL8ltbtBaQWt1oA9w6dXF1Z496RswvzsETP7G/FsLg==
 
 slash@^5.1.0:
   version "5.1.0"
